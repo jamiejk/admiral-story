@@ -96,9 +96,8 @@ export default function AdmiralQuotes() {
         <div className="section-inner">
           {/* Section Header */}
           <div
-            className={`text-center mb-10 lg:mb-14 transition-all duration-700 ${
-              isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
-            }`}
+            className={`text-center mb-10 lg:mb-14 transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
+              }`}
           >
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white mb-4">
               Admiral's Own Words
@@ -111,9 +110,8 @@ export default function AdmiralQuotes() {
 
           {/* Quote Card */}
           <div
-            className={`max-w-3xl mx-auto transition-all duration-700 delay-100 ${
-              isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
-            }`}
+            className={`max-w-3xl mx-auto transition-all duration-700 delay-100 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
+              }`}
           >
             <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 sm:p-10 lg:p-12 relative">
               {/* Quote Icon */}
@@ -152,11 +150,10 @@ export default function AdmiralQuotes() {
                     <button
                       key={index}
                       onClick={() => setCurrentIndex(index)}
-                      className={`w-2 h-2 rounded-full transition-all ${
-                        index === currentIndex
+                      className={`w-2 h-2 rounded-full transition-all ${index === currentIndex
                           ? 'w-6 bg-admiral-magenta'
                           : 'bg-white/30 hover:bg-white/50'
-                      }`}
+                        }`}
                     />
                   ))}
                 </div>
@@ -173,37 +170,7 @@ export default function AdmiralQuotes() {
             </div>
           </div>
 
-          {/* Summary Stats */}
-          <div
-            className={`grid grid-cols-3 gap-4 max-w-2xl mx-auto mt-10 transition-all duration-700 delay-200 ${
-              isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
-            }`}
-          >
-            <div className="text-center">
-              <div className="text-3xl sm:text-4xl font-bold text-admiral-magenta">
-                5
-              </div>
-              <div className="text-xs sm:text-sm text-white/60">
-                Complaints Upheld
-              </div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl sm:text-4xl font-bold text-white">
-                7+
-              </div>
-              <div className="text-xs sm:text-sm text-white/60">
-                Admissions of Fault
-              </div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl sm:text-4xl font-bold text-warning">
-                £0
-              </div>
-              <div className="text-xs sm:text-sm text-white/60">
-                Properly Paid
-              </div>
-            </div>
-          </div>
+          {/* Summary Stats Removed */}
         </div>
       </div>
     </section>
