@@ -18,7 +18,7 @@ const chapters: Chapter[] = [
     content: (
       <>
         <p className="mb-4">
-          In 2024 I move back to my home town from abroad with my wife and son, to care for my elderly mother following a major stroke (my mum, not me). After being appalled by the rental prices in the UK vs. value received, we purchase the first house either of us has owned. I also invest about £15,000 in converting a substantial parking garage on the property into an art studio—a space to start making art again, something to soften the blow of leaving the life we have built overseas and reminding myself of the beauty of where we've moved to.
+          In 2024 I move back to my home town from abroad with my wife and son, to care for my elderly mother following a major stroke (my mum, not me). After being appalled by the rental prices in the UK vs. value received, we purchase the first house either of us has owned. I also invest about £15,000 in converting a substantial parking garage on the property into an art studio—a space to start making art again, something to soften the blow of leaving the life we have built overseas and remind myself of the beauty of where we've moved to.
         </p>
         <p>
           On December 1st, Storm Darragh arrives. One of the huge trees in our garden takes the opportunity to fall over. It is a 28-meter behemoth, 2-3 metres in diameter and weighing 44 tonnes. It smashes right through the middle of my newly converted studio, flattening it and most of its contents, tearing up the garden, and even taking out the neighbour's garage for good measure. I get to use that space for less than five weeks.
