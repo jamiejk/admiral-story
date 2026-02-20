@@ -1,0 +1,555 @@
+// Timeline Events - Edit this file or use the /#/edit-timeline page
+
+export type EventCategory = 'complaint' | 'visit' | 'correspondence' | 'milestone' | 'ceo' | 'payment';
+
+export interface TimelineEvent {
+  id: number;
+  date: string;
+  title: string;
+  description: string;
+  category: EventCategory;
+  fullDetails?: string;
+  isKey: boolean; // Whether this appears in the Key Events sidebar
+}
+
+export const defaultTimelineEvents: TimelineEvent[] = [
+  {
+    id: 1,
+    date: '01/09/2024',
+    title: 'Move-in and Studio Conversion',
+    description: 'Purchases house and Admiral Home/Car insurance. Converts parking garage into art studio for £13,000-15,000.',
+    category: 'milestone',
+    fullDetails: 'I purchase and move into my house and purchase an Admiral Home and Car insurance policy. I convert an existing substantial parking garage on the property into a home studio for my art production hobby and as a man cave/storage space. Cost of conversion approximately £13,000-15,000.',
+    isKey: false,
+  },
+  {
+    id: 2,
+    date: '01/12/2024',
+    title: 'Initial Peril - Storm Darragh',
+    description: '28m tree (44 tonnes) destroys converted studio/garage and garden. Hires Loss Assessor.',
+    category: 'milestone',
+    fullDetails: 'Storm Darragh causes a catastrophic treefall. The tree involved is 28m tall and weighs approximately 44 tonnes. It completely destroys my recently converted art studio/garage (as well as next door\'s!) and much of the garden. Because I\'ve never made an insurance claim before, it\'s obviously large, and I am concerned about liability for extensive damage to neighbours\' property, I opt to hire a Loss Assessor. For reasons you will see as you read on, I 100% recommend this.',
+    isKey: true,
+  },
+  {
+    id: 3,
+    date: '18/12/2024',
+    title: 'Site Meeting',
+    description: 'Davies Loss Adjuster visits, advises against retaining loss assessor, names a settlement figure.',
+    category: 'visit',
+    fullDetails: 'A representative from Admiral\'s (Davies Group, the Loss Adjuster) visits my property along with representative from my loss assessor. At this meeting, the Davies employee takes me aside to inform me that it is not in my interest to retain a loss assessor. He advises that we can settle the claim between us, and names a figure he thinks will cover the damage. He also tells me the claim is clear cut and that he doesn\'t anticipate any issues. I wonder how any of this can be ethical, or even legal.',
+    isKey: true,
+  },
+  {
+    id: 4,
+    date: '19/12/2024',
+    title: 'Email from Davies',
+    description: 'Davies confirms report sent to Admiral, will appoint Building Surveyor once approved.',
+    category: 'correspondence',
+    isKey: false,
+  },
+  {
+    id: 5,
+    date: '01/01/2025',
+    title: 'Email to Davies',
+    description: 'Follows up on surveyor progress, raises concerns about cracks and shifting windows in main house.',
+    category: 'correspondence',
+    isKey: false,
+  },
+  {
+    id: 6,
+    date: '03/01/2025',
+    title: 'Surveyor Fee Request',
+    description: 'Submits formal request for independent RICS-qualified surveyor. No response for over a month.',
+    category: 'correspondence',
+    fullDetails: 'Given the whispered comments from Davies indicating they have pre-determined a cash settlement figure from the first visit, and concerned that relying on Admiral/Davies\' experts only would create an obvious imbalance, I submit a formal surveyor fee request to Davies for an independent, RICS-qualified surveyor to participate in the \'scoping\' alongside their surveyor. (Admiral\'s policy explicitly provides for such professional fees, and -- whatever they tell you! -- absolutely does cover an independent surveyor to ensure a balanced and fair assessment.) This receives no response for over a month, effectively stalling any technical progress on the claim.',
+    isKey: true,
+  },
+  {
+    id: 7,
+    date: '17/02/2025',
+    title: 'Email to Davies',
+    description: 'Complains that Davies is refusing to allow independent surveyor to participate.',
+    category: 'correspondence',
+    isKey: false,
+  },
+  {
+    id: 8,
+    date: '20/02/2025',
+    title: '1st Formal Complaint to Admiral',
+    description: 'Three months after treefall. Cites lack of communication, delays, and no structural engineer sent.',
+    category: 'complaint',
+    fullDetails: 'Having received no response to my request whatsover from Davies, and almost three months after the treefall, I file my first formal complaint with Admiral. It covers: (1) Lack of communication inc. the ongoing failure to respond to emails and written questions. (2) Delays to the claim caused by slow-walking the appointment of surveyors. (3) Safety assessment failure: calling to their attention the fact that no structural engineer has been sent to assess the property\'s safety despite the catastrophic nature of the tree fall.',
+    isKey: true,
+  },
+  {
+    id: 9,
+    date: '25/02/2025',
+    title: 'Email to Admiral',
+    description: 'Challenges refusal to cover independent surveyor fees, citing FCA regulations (ICOBS).',
+    category: 'correspondence',
+    isKey: false,
+  },
+  {
+    id: 10,
+    date: '03/03/2025',
+    title: 'Email to Admiral',
+    description: 'Chases Admiral, questions legal limit on leaving property in destruction. Sends debris photos.',
+    category: 'correspondence',
+    isKey: false,
+  },
+  {
+    id: 11,
+    date: '24/03/2025',
+    title: '1st Formal Complaint Upheld',
+    description: 'Admiral admits service failure, acknowledges liability for surveyor fees. £300 compensation issued.',
+    category: 'milestone',
+    fullDetails: 'Admiral upholds my first complaint in full, calling the lack of communication (especially from Davies) and the delays to the claim a \'service failure\'. They acknowledge they are in fact liable for surveyors\' fees under my policy, while making the dubious assertion that their previous stance is an error created by a misreading of their own policy document. Admiral requests that I submit fees for an independent surveyor so that a "Scope of Works" visit can finally be arranged. An amount of £300 is also issued in compensation -- this equates to far less than minimum wage for the hours I put into chasing and fighting them.',
+    isKey: true,
+  },
+  {
+    id: 12,
+    date: '02/04/2025',
+    title: 'Email to Davies',
+    description: 'Demands joint Scope of Works visit be scheduled. Property in destruction for four months.',
+    category: 'correspondence',
+    isKey: false,
+  },
+  {
+    id: 13,
+    date: '03/04/2025',
+    title: 'Email from Davies',
+    description: 'Davies argues Admiral limited independent surveyor to one site visit only. Arguments for over a week.',
+    category: 'correspondence',
+    fullDetails: 'When they finally acknowledge Admiral\'s decision, Davies argue that Admiral has actually limited funding for an independent surveyor to one site visit only, and no follow up time to produce the actual scope. This is ridiculously inadequate for a claim of this complexity and size. It is not what the FCA regulations provide for. Slow-motion arguments about this go on for over a week via email. My contents continue to rot in the dangerous debris as Spring arrives.',
+    isKey: false,
+  },
+  {
+    id: 14,
+    date: '04/04/2025',
+    title: 'Email to Davies',
+    description: 'Submits Survey Fee proposal. Explicitly warns we have NOT agreed to cash settlement.',
+    category: 'correspondence',
+    isKey: false,
+  },
+  {
+    id: 15,
+    date: '11/04/2025',
+    title: 'Email from Davies',
+    description: 'Davies states Admiral not responsible for future surveyor fees after initial visit.',
+    category: 'correspondence',
+    fullDetails: 'Davies Group state again that Admiral would not be responsible for future surveyor fees after the initial visit, arguing that a single visit should be sufficient to produce an entire scope of works. They attempt to treat a catastrophic structural claim like a minor repair, because it would limit the independent surveyor\'s ability to check their power.',
+    isKey: false,
+  },
+  {
+    id: 16,
+    date: '14/04/2025',
+    title: 'Email to Davies',
+    description: 'Presses for answers on declining independent surveyor. Agrees to restricted terms to get claim moving.',
+    category: 'correspondence',
+    fullDetails: 'We continue to press for answers as to why and on whose authority Admiral is declining the full use of the independent surveyor. We note our frustration that these questions remain unanswered despite months of asking. Now deep into a four-month+ delay, however, we eventually agree these restricted terms just to get the claim moving. This "concession" is not a free choice; it is due to administrative attrition.',
+    isKey: false,
+  },
+  {
+    id: 17,
+    date: '17/04/2025',
+    title: "First 'Scoping' Site Visit",
+    description: 'Davies sends structural engineer instead of surveyor. Independent surveyor conducts thorough inspection.',
+    category: 'visit',
+    fullDetails: 'The first scoping visit finally takes place. But instead of a surveyor, Davies Group sends a structural engineer to my property who arrives (late) stating that he does not actually perform "scope of work" assessments. During this same visit, the independent surveyor we have organized arrives on time and conducts a thorough inspection, including drone surveys and foundation photography. He explicitly warns that a full structural assessment is impossible while the site is covered in wreckage and the subbase is unobservable.',
+    isKey: true,
+  },
+  {
+    id: 18,
+    date: '24/04/2025',
+    title: 'Email to Davies',
+    description: 'Independent surveyor warns scope still required. Davies attempts to cobble scope from records.',
+    category: 'correspondence',
+    fullDetails: 'Because the Davies engineer has not actually been briefed to create a scope, and does not survey the property with a scope of works in mind, the visit results in no progress toward a reinstatement budget. The independent surveyor writes to warn GSP/Davies that because the structural inspection has been insufficient to form a basis for reinstatement, a proper scope is still required. Davies attempt to cobble together information for a scope from my own records and those of the independent surveyor. Despite repeated requests, Admiral fails to send anyone to my house to check for subsidence or heave following the massive treefall. The structural engineer Davies (incorrectly) sent kindly informs me that it is VERY IMPORTANT I get both looked into, which is what I have been telling Admiral for months.',
+    isKey: false,
+  },
+  {
+    id: 19,
+    date: '30/04/2025',
+    title: '2nd Formal Complaint to Admiral',
+    description: 'Complains about continued lack of communication and Davies sending wrong professional.',
+    category: 'complaint',
+    isKey: false,
+  },
+  {
+    id: 20,
+    date: '04/05/2025',
+    title: 'Email to Davies',
+    description: 'Independent surveyor: site must be cleared to verify foundation integrity before rebuild budget.',
+    category: 'correspondence',
+    isKey: false,
+  },
+  {
+    id: 21,
+    date: '07/05/2025',
+    title: '2nd Formal Complaint Upheld',
+    description: 'Admiral admits sending structural engineer instead of scoping professional is a mistake.',
+    category: 'milestone',
+    fullDetails: 'Admiral upholds my second formal complaint quickly. They admit that sending the structural engineer instead of a scoping professional is a mistake. They accept the continued lack of communication from Davies Group and the further delays this error causes. Additional compensation is offered for the "stress and inconvenience" caused by this specific failure.',
+    isKey: true,
+  },
+  {
+    id: 22,
+    date: '09/05/2025',
+    title: 'Fee Blockade Attempt',
+    description: 'Davies falsely claims Admiral will not consider secondary fees. Davies has never passed request to Admiral.',
+    category: 'complaint',
+    fullDetails: 'Immediately after this complaint is upheld, Davies Group inform me that Admiral will not in fact consider any secondary surveyor fees. When I challenge this with Admiral, I discover that Davies Group has never even passed the initial surveyor\'s fee request to Admiral. Admiral\'s own complaints team subsequently confirm that they have no record of the request and that Davies has been acting without their instructions on this point.',
+    isKey: true,
+  },
+  {
+    id: 23,
+    date: '14/05/2025',
+    title: 'First CEO Escalation',
+    description: 'Sends letter to Admiral CEO detailing 6 months of zero progress and Davies obstruction.',
+    category: 'ceo',
+    fullDetails: 'Exasperated by the fact that Admiral is upholding complaints while Davies Group continues to act in direct opposition to those findings, I realise that the "standard" complaints process is going to be insufficient. I send a Letter to the Admiral CEO, detailing the by-now 6 months of zero progress, and Davies Group obstruction. I point out that my garage/studio is still lying in a hazardous wreck in the garden.',
+    isKey: true,
+  },
+  {
+    id: 24,
+    date: '14/05/2025',
+    title: 'CEO Response',
+    description: 'The Admiral CEO personally apologizes and promises "executive oversight" and "necessary assistance."',
+    category: 'ceo',
+    isKey: true,
+  },
+  {
+    id: 25,
+    date: '15/05/2025',
+    title: 'Retaliatory Allegation',
+    description: 'Davies alleges studio is "commercial workshop" - which would invalidate entire claim. Stalls for weeks.',
+    category: 'complaint',
+    fullDetails: 'Davies Group retaliates to my attempt to reach out to the CEO by alleging the studio is a "commercial workshop," effectively stalling the claim for weeks. If true, this would invalidate the entire claim. It is at this point that I realise none of these people are on my side and that I am in fact in an adversarial relationship with them. I am still trying to find out who initiated this allegation, and on what basis, to this day.',
+    isKey: true,
+  },
+  {
+    id: 26,
+    date: '15/05/2025',
+    title: '3rd Formal Complaint',
+    description: 'Objects to retaliatory workshop allegation. Complains about continued failure to provide competent SOW.',
+    category: 'complaint',
+    fullDetails: 'Given this allegation of a "commercial workshop" is issued less than 24 hours after my first email to the CEO and is a transparent attempt to derail the claim rather than a legitimate inquiry, I formally object to it. I seek clarity on Davies Group\'s claim that Admiral had instructed them to investigate the workshop, right after the CEO\'s promise of support and while Admiral\'s complaints team concurrently denies knowledge of such instructions. I also complain about the continued failure of Davies Group to provide a competent Scope of Works (SOW) despite the second complaint (upheld on May 7) admitting the April site visit is a failure; and I explicitly flag that the "bad faith" tactics are beginning to have a documented impact on my health and well-being.',
+    isKey: false,
+  },
+  {
+    id: 27,
+    date: '20/05/2025',
+    title: 'Email to Admiral',
+    description: 'Provides evidence studio is hobby space. Davies and Admiral each blame the other for allegation.',
+    category: 'correspondence',
+    isKey: false,
+  },
+  {
+    id: 28,
+    date: '06/06/2025',
+    title: 'Email from Admiral',
+    description: 'Senior complaints handler acknowledges distress. Director of Home Insurance takes claim in-house.',
+    category: 'correspondence',
+    fullDetails: 'A senior complaints handler at Admiral sends an email acknowledging that the workshop allegation has caused significant distress. She informs me that the "Director of Home Insurance" has decided to take the claim back in-house to ensure closer oversight.',
+    isKey: false,
+  },
+  {
+    id: 29,
+    date: '10/06/2025',
+    title: 'First Unilateral Payment',
+    description: 'Admiral deposits £33,790 without comment - less than original build cost. Based on flawed "desktop" scope.',
+    category: 'payment',
+    fullDetails: 'Without further comment, Admiral elect to bypass any further negotiation on the scope and simply "dump" the amount of £33,790 into my bank account. This payment, which is for reference less than it cost to build the original structure a decade earlier, is explicitly based on the Scope of Works created by GSP (Gately-Smithers-Purslow) which is produced via a "desktop" exercise. No competent GSP representative has actually visited my property to verify structural damage before its creation. It ignores many of the findings of the independent surveyor. Admiral has attempted to bypass further negotiation and force me into a cash settlement based on an unsafe reinstatement plan.',
+    isKey: true,
+  },
+  {
+    id: 30,
+    date: '10/06/2025',
+    title: 'Email to Admiral',
+    description: 'Formally notifies Admiral I have NOT agreed to cash settlement. Admiral refuses to provide bank details for return.',
+    category: 'correspondence',
+    fullDetails: 'I formally notify Admiral that I have NOT agreed to a cash settlement and request details to return the funds. Admiral refuses to provide bank details to allow the return, further forcing the cash route. By refusing to allow the return of the funds, Admiral violates the principle that a cash settlement should be an agreed-upon alternative to reinstatement.',
+    isKey: false,
+  },
+  {
+    id: 31,
+    date: '11/06/2025',
+    title: 'Email to Admiral',
+    description: 'Desktop SOW ignores foundation examination needs. Warns outbuilding remains "dangerous structure" 7 months post-peril.',
+    category: 'correspondence',
+    fullDetails: 'Reviewing the "desktop" SOW provided with the payment, we confirm it ignores critical need to examine the foundations identified during the April 17th site visit. We spend over a month chasing Admiral for a response to this, warn Admiral that -- given there is no reasonable budget in the scope for clearance -- the outbuilding remains a "dangerous structure" seven months after the initial peril, posing a risk to both my family and my neighbors.',
+    isKey: false,
+  },
+  {
+    id: 32,
+    date: '26/06/2025',
+    title: '3rd Formal Complaint Upheld',
+    description: 'Admiral admits communication has "fallen below the required standard".',
+    category: 'milestone',
+    isKey: true,
+  },
+  {
+    id: 33,
+    date: '30/06/2025',
+    title: '4th Formal Complaint',
+    description: 'Complains Admiral is "trapping" into cash settlement. Challenges GSP desktop scope. No safety-verified plan 6 months in.',
+    category: 'complaint',
+    fullDetails: 'I complain that Admiral is effectively "trapping" me into a cash settlement; formally challenge the GSP (Gately-Smithers-Purslow) desktop scope; argue that Admiral\'s internal team is simply "rubber-stamping" the same flawed data that Davies Group has produced, meaning the move to "in-house" management is a change in name only, not in quality. I flag that Admiral is now six months into the claim and has yet to produce a safety-verified plan for a "dangerous structure" that is physically shifting.',
+    isKey: false,
+  },
+  {
+    id: 34,
+    date: '18/07/2025',
+    title: '2nd CEO Escalation',
+    description: 'Writes to CEO again warning workshop allegation is retaliatory. Property remains "dangerous structure" 7 months post-peril.',
+    category: 'ceo',
+    fullDetails: 'Having reached a total impasse with the internal claims team, I write again to Admiral\'s CEO (and the head of household claims). I warn him that the "workshop" allegation is retaliatory and that the property remains a "dangerous structure" seven months post-peril. No reply this time.',
+    isKey: false,
+  },
+  {
+    id: 35,
+    date: '21/07/2025',
+    title: 'Appointment of Head of Operations',
+    description: 'Head of Operations assigned. Questions why site leveling necessary.',
+    category: 'milestone',
+    fullDetails: 'Admiral\'s Head of Operations is assigned to the case. He begins by questioning why the site leveling and further debris removal requested by the independent surveyor are even necessary. He explicitly asks, "With the subbase and foundations remaining, why do you consider it necessary to level the site?" I respond that site leveling is an "essential enabling step" to check if the foundations have survived the 44-tonne impact (noting that the neighbor\'s foundations have failed). Also, my garden has looked like a bomb has been detonated in it for almost eight months and no one seems to care.',
+    isKey: false,
+  },
+  {
+    id: 36,
+    date: '31/07/2025',
+    title: 'Visit from Head of Operations and Head of Complaints',
+    description: 'They admit I "fell through the cracks" and promise fair, restorative approach with "benefit of the doubt."',
+    category: 'visit',
+    fullDetails: 'Admiral\'s head of complaints and head of operations visit our home. They finally seem to grasp the scale of the catastrophe, admit I "fell through the cracks" and promise a fair, restorative approach with the "benefit of the doubt." At this meeting, I inform the head of operations that, having pursued Admiral for eight months about my contents, I have disposed of several sundry broken items I am retaining ready for inspection. He tells me this is acceptable given the delays.',
+    isKey: true,
+  },
+  {
+    id: 37,
+    date: '07/08/2025',
+    title: 'Long Silence Followed by Micro-Litigation',
+    description: '10 days of silence after promises, then begins contesting cost of tree root removal already paid for.',
+    category: 'complaint',
+    fullDetails: 'Having promised action, immediately after the meeting there in fact ensues 10 days of silence in which no emails whatsoever are responded to. Following this silence, Admiral\'s Head of Operations begins contesting the cost of tree root removal already paid for. This begins a pattern of \'micro-litigation\' of the claim totally at odds with what was promised at the meeting.',
+    isKey: false,
+  },
+  {
+    id: 38,
+    date: '28/08/2025',
+    title: '4th Formal Complaint Upheld',
+    description: 'Admiral admits previous "desktop" scope is insufficient.',
+    category: 'milestone',
+    isKey: true,
+  },
+  {
+    id: 39,
+    date: '05/09/2025',
+    title: 'Engineer Report',
+    description: 'Confirms shattered Bison beams and total failure of load-bearing steels and foundation pads. Structure irrecoverable.',
+    category: 'milestone',
+    fullDetails: 'The engineer instructed by the independent surveyor issues their report. It confirms shattered Bison beams and total failure of load-bearing steels and foundation pads. The verdict: the structure is irrecoverable and requires a full replacement.',
+    isKey: true,
+  },
+  {
+    id: 40,
+    date: '09/10/2025',
+    title: 'Site-Verified Scope Approved',
+    description: 'Admiral finally signs off on site-verified SOW acknowledging structural damage ignored in June.',
+    category: 'milestone',
+    isKey: true,
+  },
+  {
+    id: 41,
+    date: '23/10/2025',
+    title: 'External Specialists Threat',
+    description: 'Despite July promises, Head of Ops says Admiral might need "external specialists" to review findings.',
+    category: 'correspondence',
+    fullDetails: 'Despite the July promises of "direct oversight," Admiral\'s head of ops now says Admiral might need "external specialists" to review Peritus\'s technical findings. I immediately push back, citing FCA ICOBS 8.1.1R and the unfairness of another bureaucratic layer.',
+    isKey: false,
+  },
+  {
+    id: 42,
+    date: '31/10/2025',
+    title: 'Head of Operations Review Complete',
+    description: 'The Head of Operations completes review, agrees to bulk of SOW.',
+    category: 'milestone',
+    isKey: false,
+  },
+  {
+    id: 43,
+    date: '01/11/2025',
+    title: 'Tenders Return',
+    description: 'Tenders return based on agreed scope.',
+    category: 'milestone',
+    isKey: false,
+  },
+  {
+    id: 44,
+    date: '20/11/2025',
+    title: 'Lowest Tender Rejected',
+    description: 'The Head of Operations rejects lowest tender for being "considerably higher" than initial GSP budget - the already-discredited budget.',
+    category: 'complaint',
+    fullDetails: 'After 3 weeks (!) the Head of Operations rejects the lowest tender. His reason: it is "considerably higher" than the initial GSP budget—the very budget already found to be inaccurate in a previous upheld complaint.',
+    isKey: false,
+  },
+  {
+    id: 45,
+    date: '01/12/2025',
+    title: 'Contingency Sum Bargaining',
+    description: 'The Head of Operations offers contingency sum only if I agree to lower base settlement. Offer rejected as "used car salesman" bargaining.',
+    category: 'complaint',
+    isKey: false,
+  },
+  {
+    id: 46,
+    date: '13/01/2026',
+    title: '5th Formal Complaint',
+    description: 'Cites "Lethal" SOW, bad-faith negotiation, retaliatory workshop slur, documented medical harm from chronic stress.',
+    category: 'complaint',
+    fullDetails: 'I file a fifth complaint citing (1) The "Lethal" SOW, (2) Bad-faith negotiation, (3) The Retaliatory workshop slur, and (4) Documented medical harm from chronic stress.',
+    isKey: true,
+  },
+  {
+    id: 47,
+    date: '06/02/2026',
+    title: 'Contents List Submitted',
+    description: 'Formally submits comprehensive Contents Schedule to the Head of Operations.',
+    category: 'correspondence',
+    isKey: false,
+  },
+  {
+    id: 48,
+    date: '10/02/2026',
+    title: 'Contents Dispute Begins',
+    description: 'The Head of Operations "surprised" at value, invokes £2,500 limit on "Office Equipment" for art studio tools.',
+    category: 'complaint',
+    fullDetails: 'The Head of Operations responds to the contents schedule by expressing "surprise" at the value and instructs Red Dragon (restoration suppliers) to attend the site for validation. He also invokes a £2,500 limit on "Office Equipment," attempting to reclassify my art studio tools (MacBook, high-end cameras) under a restrictive policy sub-limit.',
+    isKey: false,
+  },
+  {
+    id: 49,
+    date: '12/02/2026',
+    title: 'Rejected Red Dragon Inspection',
+    description: 'Rejects inspection as "logistical absurdity" - Admiral funded clearance, now wants to inspect cleared site.',
+    category: 'correspondence',
+    fullDetails: 'I reject the Red Dragon inspection as a "logistical absurdity," noting that Admiral already funded the clearance of the site and that requiring an inspection of a cleared site is an "unreasonable barrier" under the FCA Consumer Duty.',
+    isKey: false,
+  },
+  {
+    id: 50,
+    date: '12/02/2026',
+    title: 'Counter-Allegation from Head of Operations',
+    description: 'The Head of Operations claims Admiral only agreed to clear building debris, not contents. Inability to inspect = "serious breach of policy terms."',
+    category: 'complaint',
+    fullDetails: 'The Head of Operations issues a counter-allegation, claiming Admiral only agreed to clear building debris, not contents. He states that the inability to inspect would constitute a "serious breach of policy terms"',
+    isKey: false,
+  },
+  {
+    id: 51,
+    date: '13/02/2026',
+    title: 'Direct Rebuttal to Head of Operations',
+    description: 'Cites Page 9 Policy Guide "Harm Exception" and Estoppel. The Head of Operations himself agreed disposal was "no problem" in July.',
+    category: 'correspondence',
+    fullDetails: 'I send a direct rebuttal to the Head of Operations, citing Page 9 of the Policy Guide (the "Harm Exception") which overrides retention rules if an item "could cause harm". I also cite Estoppel, noting that during the July 31, 2025 site visit, the Head of Operations himself agrees that disposing of damaged items after 8 months of inaction is "no problem".',
+    isKey: false,
+  },
+  {
+    id: 52,
+    date: '16/02/2026',
+    title: 'Third CEO Letter',
+    description: 'No reply from Admiral. Sends third letter to CEO. Withheld £9,300 contingency used as "bargaining chip." Documented medical harm.',
+    category: 'ceo',
+    fullDetails: 'Following no reply from Admiral, I send my third letter to the CEO. Withheld Funds: Admiral\'s refusal to release £9,300 in essential contingency sums, which I describe as being used as a "bargaining chip". Contents Dispute: The demand for a physical inspection of items destroyed 14 months ago, despite Admiral having previously funded the site clearance. Regulatory Breaches: A formal notification that the 430-day delay and ongoing "micro-litigation" have caused documented medical harm, placing Admiral in breach of the FCA Consumer Duty.',
+    isKey: false,
+  },
+  {
+    id: 53,
+    date: '20/02/2026',
+    title: 'TrustPilot & Website Launch',
+    description: 'Receiving no reply after a week, posts to TrustPilot and launches this website.',
+    category: 'milestone',
+    fullDetails: 'Receiving no reply after a week, I post to TrustPilot and launch this website.',
+    isKey: true,
+  },
+];
+
+// Category configuration for display
+export const categoryConfig = {
+  complaint: {
+    label: 'Complaint',
+    color: 'bg-admiral-magenta',
+    textColor: 'text-admiral-magenta',
+  },
+  visit: {
+    label: 'Site Visit',
+    color: 'bg-admiral-blue',
+    textColor: 'text-admiral-blue',
+  },
+  correspondence: {
+    label: 'Emails',
+    color: 'bg-admiral-navy',
+    textColor: 'text-admiral-navy',
+  },
+  milestone: {
+    label: 'Milestone',
+    color: 'bg-warning',
+    textColor: 'text-warning',
+  },
+  ceo: {
+    label: 'CEO Escalation',
+    color: 'bg-purple-600',
+    textColor: 'text-purple-600',
+  },
+  payment: {
+    label: 'Payment',
+    color: 'bg-green-600',
+    textColor: 'text-green-600',
+  },
+};
+
+// Load events from localStorage
+export function loadTimelineEvents(): TimelineEvent[] {
+  if (typeof window !== 'undefined') {
+    const saved = localStorage.getItem('admiral-timeline');
+    if (saved) {
+      try {
+        const parsed = JSON.parse(saved);
+        if (Array.isArray(parsed) && parsed.length > 0) {
+          return parsed;
+        }
+      } catch (e) {
+        console.error('Failed to parse saved timeline:', e);
+      }
+    }
+  }
+  return defaultTimelineEvents;
+}
+
+// Save events to localStorage
+export function saveTimelineEvents(events: TimelineEvent[]): void {
+  if (typeof window !== 'undefined') {
+    localStorage.setItem('admiral-timeline', JSON.stringify(events));
+    window.dispatchEvent(new CustomEvent('timeline-updated', { detail: events }));
+  }
+}
+
+// Get key events only
+export function getKeyEvents(): TimelineEvent[] {
+  const events = loadTimelineEvents();
+  return events.filter(e => e.isKey);
+}
+
+// Import events from JSON
+export function importTimelineEvents(jsonString: string): TimelineEvent[] | null {
+  try {
+    const parsed = JSON.parse(jsonString);
+    if (Array.isArray(parsed) && parsed.every(e => e.id && e.date && e.title && e.category)) {
+      saveTimelineEvents(parsed);
+      return parsed;
+    }
+  } catch (e) {
+    console.error('Failed to import timeline:', e);
+  }
+  return null;
+}
