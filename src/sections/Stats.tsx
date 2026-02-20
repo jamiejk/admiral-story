@@ -1,5 +1,5 @@
 import { useEffect, useState, useRef } from 'react';
-import { Clock, FileCheck, Mail, XCircle } from 'lucide-react';
+import { Clock, FileCheck, Mail } from 'lucide-react';
 
 interface StatItemProps {
   icon: React.ReactNode;
