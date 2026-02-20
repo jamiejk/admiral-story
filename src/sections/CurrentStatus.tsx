@@ -42,7 +42,7 @@ export default function CurrentStatus() {
     return () => clearInterval(interval);
   }, []);
 
-  const shareText = `Day ${days}: Admiral Insurance has owed this homeowner money for ${days} days. Five complaints upheld. £0 properly paid. #AdmiralLookingTheOtherWay`;
+  const shareText = `Day ${days}: Admiral Insurance has owed this homeowner money for ${days} days. Four complaints upheld. £40,000+ outstanding. #AdmiralLookingTheOtherWay`;
 
   const shareUrls = {
     twitter: `https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}`,
@@ -64,9 +64,8 @@ export default function CurrentStatus() {
         <div className="section-inner">
           {/* Main Status Card */}
           <div
-            className={`max-w-3xl mx-auto transition-all duration-700 ${
-              isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
-            }`}
+            className={`max-w-3xl mx-auto transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
+              }`}
           >
             <div className="bg-gradient-to-br from-admiral-navy to-admiral-navy/90 rounded-3xl p-8 sm:p-10 lg:p-14 text-center relative overflow-hidden">
               {/* Background Decoration */}
@@ -109,7 +108,7 @@ export default function CurrentStatus() {
                 <div className="grid grid-cols-3 gap-4 sm:gap-8 mb-10">
                   <div>
                     <div className="text-2xl sm:text-3xl font-bold text-admiral-magenta">
-                      5
+                      4
                     </div>
                     <div className="text-xs sm:text-sm text-white/60">
                       Complaints
@@ -119,12 +118,10 @@ export default function CurrentStatus() {
                   </div>
                   <div>
                     <div className="text-2xl sm:text-3xl font-bold text-warning">
-                      £0
+                      £40,000+
                     </div>
                     <div className="text-xs sm:text-sm text-white/60">
-                      Properly
-                      <br />
-                      Paid
+                      Outstanding
                     </div>
                   </div>
                   <div>
@@ -191,9 +188,8 @@ export default function CurrentStatus() {
 
           {/* Update Subscription */}
           <div
-            className={`max-w-xl mx-auto mt-10 text-center transition-all duration-700 delay-200 ${
-              isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
-            }`}
+            className={`max-w-xl mx-auto mt-10 text-center transition-all duration-700 delay-200 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
+              }`}
           >
             <div className="flex items-center justify-center gap-2 text-admiral-gray mb-2">
               <Mail className="w-4 h-4" />
