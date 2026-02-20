@@ -73,12 +73,6 @@ export default function Stats() {
       label: 'of emails & calls',
       color: 'bg-warning',
     },
-    {
-      icon: <XCircle className="w-7 h-7 text-white" />,
-      value: 'STILL',
-      label: 'no resolution.',
-      color: 'bg-admiral-navy',
-    },
   ];
 
   return (
@@ -100,7 +94,7 @@ export default function Stats() {
           </div>
 
           {/* Stats Grid */}
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
+          <div className="grid grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12 max-w-5xl mx-auto">
             {stats.map((stat, index) => (
               <StatItem
                 key={stat.label}

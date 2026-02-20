@@ -21,7 +21,7 @@ const priorityIcons = {
 const COMPLAINTS = [
   "IGNORED for 8 months with a dangerous wreckage in my garden",
   "BULLIED by agents trying to minimise my claim",
-  "PUT AT RISK by an incompetent, dangerous assessments",
+  "PUT AT RISK by an incompetent, dangerous assessment",
   "LIED TO about the provisions in the policy booklet",
   "STONEWALLED by senior staff invalidating my contents claim."
 ];
@@ -194,7 +194,7 @@ export default function Hero() {
                     Day {days.toLocaleString()}
                   </div>
                   <div className="text-sm text-white/70">
-                    Since the tree fell • Still waiting
+                    Since the tree fell • No resolution
                   </div>
                 </div>
               </div>

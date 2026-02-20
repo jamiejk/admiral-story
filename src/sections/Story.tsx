@@ -37,7 +37,7 @@ const chapters: Chapter[] = [
           I contact Admiral immediately. I have selected them thinking they are a company I can trust, but given the enormity of this disaster, I also hire a Loss Assessor—a decision I strongly recommend if you find yourself with a major claim on your hands.
         </p>
         <p className="mb-4">
-          It takes Admiral's Loss Adjuster, Davies Group, 17 days to show up at my house. The visit takes a concerning turn when the Davies representative pulls me aside to advise against retaining my loss assessor, naming a cash settlement figure he thinks will cover the damage. I wonder how this can be ethical—or even legal. (Spoiler: it isn't.)
+          It takes Admiral's Loss Adjuster, Davies Group, nearly three weeks to show up at my house. The visit takes a concerning turn when the Davies representative pulls me aside to advise against retaining my loss assessor, naming a cash settlement figure he thinks will cover the damage. I wonder how this can be ethical—or even legal. (Spoiler: it isn't.)
         </p>
         <p>
           The holidays are apparently sufficient reason for further inaction—this, of course, means Christmas and New Year looking at a catastrophic disaster zone instead of our nice garden. We are worried about the very real possibility of subsidence—but none of this seems to concern Admiral or Davies.
@@ -251,21 +251,37 @@ const chapters: Chapter[] = [
     ),
   },
   {
-    id: 'present',
-    title: 'The Present',
+    id: 'no_good_word',
+    title: 'When Your Word Is No Good',
     subtitle: 'February 2026',
-    icon: <Clock className="w-6 h-6" />,
+    icon: <User className="w-6 h-6" />,
     content: (
       <>
         <p className="mb-4">
           It is now February 2026, more than 14 months after the treefall. I finally submit my contents claim, given no one wants to talk to me about the inadequate reinstatement settlement. I still don't have anywhere to put all my stuff, but might as well file it before they stop talking to me entirely.
         </p>
         <p className="mb-4">
-          The Head of Operations takes one look at the contents figure and claims I have breached the terms of my contract, by disposing of items—completely ignoring Admiral's own policy which states that I should retain items "unless it could cause harm"—it would 100% have caused harm if I had crawled into the debris to try to retrieve rotten, waterlogged items—and his own verbal agreement in July that disposal was "no problem".
+          The Head of Operations takes one look at the contents figure and claims I have breached the terms of my contract by disposing of items. He is completely ignoring Admiral's own policy, which states that I should retain items "unless it could cause harm"—it would 100% have caused harm if I had crawled into the debris to try to retrieve rotten, waterlogged items—and his own verbal agreement in July that disposal was "no problem".
         </p>
         <p className="mb-4">
+          It's that last part that really gets to me. This guy stood in my decimated yard, pretended to commiserate with me, and told me it was not reasonable for anyone to expect me to keep decaying, dirty contents for over eight months. This guy knew that I had repeatedly asked Admiral to send someone to my house to make the property safe and catalogue the contents -- and that they never came. He told me it was okay to dispose of items. But not in writing.
+        </p>
+        <p className="mb-4">
+          And now he is using that against me.
+        </p>
+        <p>
           Mind-meltingly, Admiral demand a futile physical inspection of items destroyed months ago—despite they themselves having funded the site clearance and never once making efforts to retain a single item under the debris.
         </p>
+      </>
+    ),
+  },
+  {
+    id: 'present',
+    title: 'The Present',
+    subtitle: 'February 2026',
+    icon: <Clock className="w-6 h-6" />,
+    content: (
+      <>
         <p className="mb-4">
           And this is where I am today. I send a third letter to the Admiral CEO, telling him that I simply want my property restored to the state it was in before the accident, and that it is not right to punish me for mistakes Admiral has admitted to making. Four formal complaints upheld. Multiple admissions of service failure. A fifth complaint now in progress.
         </p>
