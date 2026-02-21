@@ -51,6 +51,12 @@ export const defaultLessons: Lesson[] = [
     description: 'Admiral will wear you down by not responding. They hope that given long enough, you\'ll be desperate to settle. Be aware that you are in this for the long haul, especially if it is a larger claim.',
     priority: 'medium',
   },
+  {
+    id: 8,
+    title: 'Buck-passing and Blame-shifting',
+    description: 'Beware that Admiral\'s use of third party agents (like Davies Group as Loss Adjuster in my case) creates a cunning administrative opportunity which they will both absolutely make use of. Either one can blame a delay on the other; either one can point to an unfair decision and say it was the other\'s; and in general, any form of incompetence or malfeasance is easily blamed on the other party. There is not much you can do about this, but forewarned is forearmed. My strong suspicion is that it is completely non-coincidental that Admiral has a evolved a system of pushing critical decision making off to third parties that they deliberately keep on a long leash.',
+    priority: 'high',
+  },
 ];
 
 // Load lessons from localStorage if available (for inline editing)
