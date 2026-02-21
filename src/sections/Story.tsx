@@ -242,10 +242,10 @@ const chapters: Chapter[] = [
           It was immediately obvious that the foundations (Bison beams over a steel frame) were, respectively, smashed and bent. It was shocking that Admiral had not ordered any excavation of the foundations -- especially since the engineers and several contractors told me that it would have been absolutely obvious to any competent professional that a tree of this size would have decimated a steel foundation like this.
         </p>
         <p className="mb-4">
-          I shifted from shock to enragement when I realised that the dodgy Scope of Works Admiral had foisted on me made no provision for replacing the foundations, and provided me with just enough funds to reinstate the structure on top of the broken ones. Because the garage was built over a hill, it is no exaggeration to say that it would have been potentially lethal to attempt this. The weight of the new structure could have collapsed the building into the void beneath it, creating a potentially lethal situation for me, my family, or a future owner.
+          I shifted from shock to enragement when I realised that the dodgy Scope of Works Admiral had foisted on me made no provision for replacing the foundations, and provided me with just enough funds to reinstate the structure on top of the broken ones. Because the garage was built over a hill, attempting this could have been catastrophic. The weight of the new structure risked collapsing the entire building into the void beneath it, posing a severe threat to me, my family, or any future owner.
         </p>
         <p>
-          This is why none of this is, at least not most importantly, about money. Admiral have a duty of care to their customers which they absolutely abrogated in producing a shoddy scope, thrusting an inadequate settlement into my bank account, and attempting to walk away. Had I simply accepted what they gave me, I would have almost certainly been in dangerous, potentially deadly territory.
+          This is why none of this is, at least not most importantly, about money. Admiral have a duty of care to their customers which they absolutely abrogated by producing a shoddy scope, thrusting an inadequate settlement into my bank account, and attempting to walk away. Had I simply accepted what they gave me, I would have been living in a fundamentally unsafe environment.
         </p>
       </>
     ),
