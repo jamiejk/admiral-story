@@ -78,6 +78,20 @@ const galleryImages: GalleryImage[] = [
     caption: 'The ongoing state of the property months after the peril. Still waiting.',
     category: 'current',
   },
+  {
+    id: 10,
+    src: '/photos/IMG20250917114752 (1).jpg',
+    alt: 'Exposed foundations part 1',
+    caption: 'The state of the foundations, revealed once an examination was finally carried out by the independent surveyor.',
+    category: 'aftermath',
+  },
+  {
+    id: 11,
+    src: '/photos/IMG_20250904_162259.jpg',
+    alt: 'Exposed foundations part 2',
+    caption: 'The state of the foundations following excavation, pt.2 -- note that Bison beams must NEVER be re-used after an impact like this.',
+    category: 'aftermath',
+  },
 ];
 
 const categoryConfig = {
