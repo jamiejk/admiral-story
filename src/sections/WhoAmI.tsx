@@ -50,7 +50,7 @@ export default function WhoAmI() {
                             <p>
                                 If you are from Admiral visiting this site—I warned your staff several times I was going to do this, and no one seemed to care. You can{' '}
                                 <a
-                                    href="mailto:placeholder@example.com"
+                                    href="mailto:contact@admiraloverboard.com"
                                     className="text-admiral-magenta hover:text-admiral-navy font-semibold underline underline-offset-4 transition-colors"
                                 >
                                     send me a message
