@@ -61,14 +61,14 @@ const galleryImages: GalleryImage[] = [
     id: 7,
     src: '/photos/PXL_20250128_151803343.webp',
     alt: 'Damage to the main house',
-    caption: 'HERE IS HOW MY YARD LOOKED FOR 10 MONTHS before Admiral agreed to clear it. (Wound up cutting the wood up myself.)',
+    caption: 'Cutting up the tree Pt. 2. -- No complaints about these guys. Perhaps you can imagine what the combo of sawdust and rain did to the electronics in my studio!',
     category: 'aftermath',
   },
   {
     id: 8,
     src: '/photos/PXL_20250205_100927931.webp',
     alt: 'Close up of structural failure',
-    caption: 'I warned Admiral about sharp bits of metal hanging into the neighbour\'s property. No interest whatsoever!',
+    caption: 'HERE IS HOW MY YARD LOOKED FOR 10 MONTHS before Admiral agreed to clear it. (Wound up cutting the wood up myself.)',
     category: 'aftermath',
   },
   {
