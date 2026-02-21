@@ -3,6 +3,7 @@ import { HashRouter, Routes, Route } from 'react-router-dom';
 import Hero from './sections/Hero';
 import Stats from './sections/Stats';
 import Timeline from './sections/Timeline';
+import Gallery from './sections/Gallery';
 import Story from './sections/Story';
 import AdmiralQuotes from './sections/AdmiralQuotes';
 import CurrentStatus from './sections/CurrentStatus';
@@ -31,6 +32,7 @@ function MainPage() {
         <Hero />
         <Stats />
         <Timeline />
+        <Gallery />
         <Story />
         <AdmiralQuotes />
         <CurrentStatus />

@@ -245,20 +245,7 @@ export default function Gallery() {
             })}
           </div>
 
-          {/* Photo Upload Notice */}
-          <div
-            className={`mt-10 lg:mt-14 p-6 bg-white rounded-xl border border-dashed border-admiral-gray/30 text-center transition-all duration-700 delay-500 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
-              }`}
-          >
-            <Camera className="w-8 h-8 text-admiral-gray/40 mx-auto mb-3" />
-            <p className="text-sm text-admiral-gray">
-              This section is ready for your photos. Simply add them to the{' '}
-              <code className="bg-admiral-light px-2 py-1 rounded text-xs">
-                public/images/
-              </code>{' '}
-              folder and update the gallery data.
-            </p>
-          </div>
+          {/* Photo Upload Notice Removed */}
         </div>
       </div>
 
