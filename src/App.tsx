@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { HashRouter, Routes, Route } from 'react-router-dom';
 import Hero from './sections/Hero';
+import WhoAmI from './sections/WhoAmI';
 import Stats from './sections/Stats';
 import Timeline from './sections/Timeline';
 import Gallery from './sections/Gallery';
@@ -30,6 +31,7 @@ function MainPage() {
       <Navigation visible={showNav} />
       <main>
         <Hero />
+        <WhoAmI />
         <Stats />
         <Timeline />
         <Gallery />
