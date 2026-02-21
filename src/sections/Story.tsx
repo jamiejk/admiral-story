@@ -229,6 +229,28 @@ const chapters: Chapter[] = [
     ),
   },
   {
+    id: 'deadly_scope',
+    title: 'Why The Scope From Hell Was Actually Deadly',
+    subtitle: 'November 2025',
+    icon: <AlertTriangle className="w-6 h-6" />,
+    content: (
+      <>
+        <p className="mb-4">
+          I need to backtrack here and talk about what happened when structural engineers were finally able to visit my property, expose the foundations of the studio, and examine the damage.
+        </p>
+        <p className="mb-4">
+          It was immediately obvious that the foundations (Bison beams over a steel frame) were, respectively, smashed and bent. It was shocking that Admiral had not ordered any excavation of the foundations -- especially since the engineers and several contractors told me that it would have been absolutely obvious to any competent professional that a tree of this size would have decimated a steel foundation like this.
+        </p>
+        <p className="mb-4">
+          I shifted from shock to enragement when I realised that the dodgy Scope of Works Admiral had foisted on me made no provision for replacing the foundations, and provided me with just enough funds to reinstate the structure on top of the broken ones. Because the garage was built over a hill, it is no exaggeration to say that it would have been potentially lethal to attempt this. The weight of the new structure could have collapsed the building into the void beneath it, creating a potentially lethal situation for me, my family, or a future owner.
+        </p>
+        <p>
+          This is why none of this is, at least not most importantly, about money. Admiral have a duty of care to their customers which they absolutely abrogated in producing a shoddy scope, thrusting an inadequate settlement into my bank account, and attempting to walk away. Had I simply accepted what they gave me, I would have almost certainly been in dangerous, potentially deadly territory.
+        </p>
+      </>
+    ),
+  },
+  {
     id: 'dodgy_salesman',
     title: 'Dodgy Salesman Tactics',
     subtitle: 'December 2025 - January 2026',
