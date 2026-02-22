@@ -68,7 +68,7 @@ const galleryImages: GalleryImage[] = [
     id: 8,
     src: '/photos/PXL_20250205_100927931.webp',
     alt: 'Close up of structural failure',
-    caption: 'HERE IS HOW MY YARD LOOKED FOR 10 MONTHS before Admiral agreed to clear it. (Wound up cutting the wood up myself.)',
+    caption: "Sharp bits of metal poked into the neighbours' garden for about 8 or 9 months. Do you think Admiral cared? Not a bit!",
     category: 'aftermath',
   },
   {
@@ -91,6 +91,13 @@ const galleryImages: GalleryImage[] = [
     alt: 'Exposed foundations part 2',
     caption: 'The state of the foundations following excavation, pt.2 -- note that Bison beams must NEVER be re-used after an impact like this.',
     category: 'aftermath',
+  },
+  {
+    id: 12,
+    src: '/photos/PXL_20241213_103524706.RAW-01.COVER.jpg',
+    alt: 'Trapped art printer',
+    caption: 'My very expensive art printer, trapped under a section of collapsed roof. Admiral says I could & should have \'safely\' extracted this and stored it for 14 moths at my own expense.',
+    category: 'damage',
   },
 ];
 
