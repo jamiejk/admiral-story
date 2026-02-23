@@ -34,13 +34,13 @@ const chapters: Chapter[] = [
     content: (
       <>
         <p className="mb-4">
-          I contact Admiral immediately. I have selected them thinking they are a company I can trust, but given the enormity of this disaster, I also hire a Loss Assessor—a decision I strongly recommend if you find yourself with a major claim on your hands.
+          I contacted Admiral immediately, trusting their reputation to manage a disaster of this scale. However, given the complexity, I also appointed an independent Loss Assessor—a step I recommend to any policyholder to ensure balanced representation during a major claim.
         </p>
         <p className="mb-4">
-          It takes Admiral's Loss Adjuster, Davies Group, nearly three weeks to show up at my house. The visit takes a concerning turn when the Davies representative pulls me aside to advise against retaining my loss assessor, naming a cash settlement figure he thinks will cover the damage. I wonder how this can be ethical—or even legal. (Spoiler: it isn't.)
+          It took Admiral’s adjuster, Davies Group, nearly three weeks to attend the property. The visit took a concerning turn when the Davies representative requested a private conversation to advise against my use of an independent assessor, while proposing a preliminary cash settlement figure. This attempt to discourage independent representation raises significant questions regarding professional impartiality and compliance with the CILA Code of Conduct.
         </p>
         <p>
-          The holidays are apparently sufficient reason for further inaction—this, of course, means Christmas and New Year looking at a catastrophic disaster zone instead of our nice garden. We are worried about the very real possibility of subsidence—but none of this seems to concern Admiral or Davies.
+          The holiday period resulted in further documented inaction—leaving us to face Christmas and New Year overlooking a "catastrophic disaster zone" rather than our garden. Despite our communicated concerns regarding the risk of subsidence, this period was marked by a lack of substantive progress or technical oversight from Admiral or Davies.
         </p>
       </>
     ),
@@ -53,10 +53,10 @@ const chapters: Chapter[] = [
     content: (
       <>
         <p className="mb-4">
-          Given that Davies seems to have a cash settlement figure in mind without even having a surveyor visit the site, I request the budget for a neutral, RICS-qualified third party professional to weigh in. Davies' response: radio silence, refusal to answer, administrative inertia—and, when forced to respond, downright lies about what my policy actually provides for. In a larger claim like this, it's absolutely reasonable to ask for extra help like this—especially if the probity of your Loss Adjuster seems questionable!
+          Given that Davies proposed a settlement figure without a formal survey, I requested the professional fees for a neutral, RICS-qualified surveyor to ensure a balanced assessment. This request was met with extensive administrative delays and conflicting information regarding my policy coverage—specifically, a refusal to acknowledge that professional fees were included in my terms. For a catastrophic claim, independent technical oversight is a standard requirement to ensure the reinstatement plan is both safe and accurate.
         </p>
         <p>
-          Over the MONTHS of delays following this request, I come to understand that bureaucratic inertia is a key tool Admiral use in managing your claim—wait you out, starve you out, hope you buckle under stress and necessity. By February, with zero clear up or even an action plan, I file my first formal complaint: lack of communication, delays, and no structural engineer sent despite catastrophic damage.
+          Over months of subsequent delays, the lack of communication became a significant barrier to progress. By February, with no site clearance or remediation plan in place, I filed a first formal complaint. The grounds included systemic communication failures, excessive delays, and the failure to appoint a structural engineer despite the severity of the damage. This period of inactivity appears to conflict with the FCA’s Consumer Duty, which requires firms to act in good faith and avoid causing foreseeable harm to policyholders.
         </p>
       </>
     ),
