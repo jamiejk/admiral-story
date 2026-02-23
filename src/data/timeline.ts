@@ -234,7 +234,7 @@ export const defaultTimelineEvents: TimelineEvent[] = [
     title: '3rd Formal Complaint',
     description: 'Object to retaliatory workshop allegation. Complain about continued failure to provide competent SOW.',
     category: 'complaint',
-    fullDetails: 'Given this allegation of a "commercial workshop" is issued less than 24 hours after my first email to the CEO and is a transparent attempt to derail the claim rather than a legitimate inquiry, I formally object to it. I seek clarity on Davies Group\'s claim that Admiral had instructed them to investigate the workshop, right after the CEO\'s promise of support and while Admiral\'s complaints team concurrently denies knowledge of such instructions. I also complain about the continued failure of Davies Group to provide a competent Scope of Works (SOW) despite the second complaint (upheld on May 7) admitting the April site visit is a failure; and I explicitly flag that the "bad faith" tactics are beginning to have a documented impact on my health and well-being.',
+    fullDetails: 'I formally flagged that these adversarial tactics from Davies, combined with the repeated administrative failures, were having a documented negative impact on my health and well-being. The Key Discrepancies: 1. The \'commercial workshop\' allegation was launched immediately following executive-level escalation. 2. There was a documented disconnect between the CEO’s office and the instructions being relayed by Davies Group. This occurred while Davies Group continued to fail in providing a competent Scope of Works (SOW), despite Admiral admitting the previous site visit was a "failure" just eight days prior (May 7th).',
     isKey: false,
   },
   {
