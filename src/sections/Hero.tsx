@@ -5,10 +5,11 @@ import { getTopLessons, type Lesson } from '@/data/lessons';
 
 // Calculate days since the treefall (December 1, 2024)
 const START_DATE = new Date('2024-12-01');
+const LAUNCH_DATE = new Date('2026-02-21'); // Site launched Saturday morning
 
-function getDaysElapsed() {
+function getDaysSince(date: Date) {
   const now = new Date();
-  const diff = now.getTime() - START_DATE.getTime();
+  const diff = now.getTime() - date.getTime();
   return Math.floor(diff / (1000 * 60 * 60 * 24));
 }
 
@@ -28,6 +29,7 @@ const COMPLAINTS = [
 
 export default function Hero() {
   const [days, setDays] = useState(0);
+  const [liveDays, setLiveDays] = useState(0);
   const [isVisible, setIsVisible] = useState(false);
   const [topLessons, setTopLessons] = useState<Lesson[]>([]);
   const [complaintIndex, setComplaintIndex] = useState(0);
@@ -40,12 +42,14 @@ export default function Hero() {
 
   useEffect(() => {
     setIsVisible(true);
-    setDays(getDaysElapsed());
+    setDays(getDaysSince(START_DATE));
+    setLiveDays(Math.max(0, getDaysSince(LAUNCH_DATE)));
     reloadLessons();
 
     // Update day counter every minute
     const interval = setInterval(() => {
-      setDays(getDaysElapsed());
+      setDays(getDaysSince(START_DATE));
+      setLiveDays(Math.max(0, getDaysSince(LAUNCH_DATE)));
     }, 60000);
 
     // Update complaint ticker every 4 seconds
@@ -170,31 +174,39 @@ export default function Hero() {
               <p className="text-lg sm:text-xl text-admiral-gray max-w-xl mb-8 leading-relaxed">
                 A{' '}
                 <span className="font-semibold text-admiral-dark">
-                  14 month (and counting)
+                  14-month (and counting)
                 </span>{' '}
-                saga of one family's fight for fair treatment from one of the UK's largest insurers.
-                <button
-                  onClick={() => document.querySelector('#story')?.scrollIntoView({ behavior: 'smooth' })}
-                  className="text-admiral-magenta hover:underline font-medium inline-block cursor-pointer focus:outline-none"
-                >
-                  Read my sorry tale.
-                </button>
+                documentation of Storm Darragh's aftermath and one insurance company's response.
               </p>
 
-              {/* Day Counter */}
+              {/* Day Counters */}
               <div
-                className={`inline-flex items-center gap-4 px-6 py-4 bg-admiral-navy rounded-xl transition-all duration-700 delay-300 ${isVisible
+                className={`flex flex-col sm:flex-row gap-4 transition-all duration-700 delay-300 ${isVisible
                   ? 'opacity-100 translate-y-0'
                   : 'opacity-0 translate-y-4'
                   }`}
               >
-                <Calendar className="w-6 h-6 text-admiral-magenta" />
-                <div>
-                  <div className="text-3xl sm:text-4xl font-bold text-white">
-                    Day {days.toLocaleString()}
+                <div className="flex-1 flex items-center gap-4 px-6 py-5 bg-admiral-navy rounded-xl shadow-md">
+                  <Calendar className="w-6 h-6 text-admiral-magenta shrink-0" />
+                  <div>
+                    <div className="text-3xl sm:text-4xl font-bold text-white mb-0.5">
+                      Day {days.toLocaleString()}
+                    </div>
+                    <div className="text-sm text-white/80">
+                      Since the tree fell &bull; Still waiting
+                    </div>
                   </div>
-                  <div className="text-sm text-white/70">
-                    Since the tree fell • No resolution
+                </div>
+
+                <div className="flex-1 flex items-center gap-4 px-6 py-5 bg-admiral-navy rounded-xl shadow-md">
+                  <Calendar className="w-6 h-6 text-[#00a3e0] shrink-0" />
+                  <div>
+                    <div className="text-3xl sm:text-4xl font-bold text-white mb-0.5">
+                      Day {liveDays.toLocaleString()}
+                    </div>
+                    <div className="text-sm text-white/80">
+                      Since site went live &bull; No response
+                    </div>
                   </div>
                 </div>
               </div>
