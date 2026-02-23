@@ -25,9 +25,7 @@ export default function Footer() {
               </div>
               <p className="text-white/60 text-sm leading-relaxed max-w-md">
                 A documented account of a 14+ month insurance claim battle with
-                Admiral Insurance. Two formal complaints upheld. Zero pounds
-                paid. This site exists to hold Admiral accountable and warn
-                others about their practices.
+                Admiral Insurance. Four formal complaints upheld. Still no conclusion!
               </p>
             </div>
 
