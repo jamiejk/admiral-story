@@ -120,25 +120,22 @@ const chapters: Chapter[] = [
   },
   {
     id: 'snitches',
-    title: 'Snitches Get Stitches',
+    title: 'Allegation after CEO escalation',
     subtitle: 'May 2025',
     icon: <AlertTriangle className="w-6 h-6" />,
     content: (
       <>
         <p className="mb-4">
-          The very same day I write to the CEO, he replies, apologizing for the "frustrating" experience and promising that a senior complaints handler and the Director of Home Insurance will take charge to guide the resolution of my claim.
+          The same day I escalated my concerns to the CEO, he responded with an apology and a promise of senior-level oversight to resolve the claim. However, within 24 hours of this executive promise, Davies Group introduced a new allegation: that "all indications" suggested the garden studio had been used as a "commercial workshop"—a claim that, if true, could have invalidated my entire policy.
         </p>
-        <p className="mb-4">
-          Davies Group apparently don't get the memo—or if they do, they don't like it. In less than 24 hours they retaliate by alleging that "all indications" are that my garden studio has in fact been a "commercial workshop".
-        </p>
-        <p className="mb-4">
-          In other words, they are attempting to invalidate my cover after the fact to punish me for reaching out to the CEO.
-        </p>
-        <p className="mb-4">
-          Worse still, no one at Admiral (never mind Davies) will or can explain the basis of this assertion and it takes a couple of very stressful weeks to determine that my claim has not, in fact, been invalidated.
-        </p>
+        <p className="font-bold text-admiral-navy mb-2">Key Findings:</p>
+        <ul className="list-disc pl-5 mb-4 space-y-2 text-admiral-gray">
+          <li><strong>Lack of Evidence:</strong> Neither Admiral nor Davies Group provided a documented basis for this assertion at the time it was made.</li>
+          <li><strong>Internal Disconnect:</strong> While Davies Group launched this investigation, Admiral’s complaints team concurrently denied any knowledge of such instructions following the CEO's promise of support.</li>
+          <li><strong>Stalled Progress:</strong> This unsubstantiated allegation stalled the claim for several stressful weeks before it was determined that the cover had not, in fact, been invalidated.</li>
+        </ul>
         <p>
-          I make a complaint to Admiral about this blatantly retaliatory, punitive move. It is never included in any decision, and they refuse to discuss it further.
+          I filed a formal complaint regarding the timing and basis of this allegation. This sequence of events marked a significant shift in the claim's handling, moving from a standard service interaction to an adversarial process that had a documented impact on my health and well-being.
         </p>
       </>
     ),
