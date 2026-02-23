@@ -338,8 +338,9 @@ export const defaultTimelineEvents: TimelineEvent[] = [
     id: 38,
     date: '28/08/2025',
     title: '4th Formal Complaint Upheld',
-    description: 'Admiral admits previous "desktop" scope is insufficient.',
+    description: 'Admiral admits previous "desktop" scope is insufficient and upholds 3/4 items of complaint.',
     category: 'milestone',
+    fullDetails: 'Admiral upholds 3/4 items of my fourth formal complaint, formally admitting the systemic failures that characterized the preceding months.\n\nKey Admissions and Findings:\n\n• Admiral admitted the original Scope of Works (SOW) was "insufficient", that critical items were omitted and that the reliance on a desktop exercise—conducted without a physical site visit—resulted in an inaccurate assessment of the damage.\n\n• Enforced Settlement Corrected: The unilateral payment of £33,790 issued on June 10, 2025 was formally re-classified as an interim payment rather than a settlement.\n\n• Admiral acknowledged that their actions contributed to an "unfair" and "complex journey" for the policyholder, failing to meet the standards expected under the FCA’s Principle of Treating Customers Fairly.\n\nInterest and Compensation: As a result of these documented delays, Admiral awarded compensation including 8% interest on the settlement funds dating back to February 1, 2025—the point at which they admitted they should have been in a position to settle.',
     isKey: true,
   },
   {
