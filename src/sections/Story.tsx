@@ -107,13 +107,13 @@ const chapters: Chapter[] = [
     content: (
       <>
         <p className="mb-4">
-          Following the Wrong Man visit, the independent surveyor warns that a proper scoping survey will be needed, as none has taken place so far and he is just there to give a second opinion. Davies ignore him completely and commence trying to cobble together a scope of works by asking us for our records, and relying on comments from the engineer. It is at this point that I realise that professional incompetence might have as much to do with my problems as deliberate intransigence.
+          Following the site visit, the independent surveyor formally warned that a comprehensive scoping survey was still required, as no such assessment had yet taken place. Despite this professional recommendation, Davies Group proceeded to compile a Scope of Works (SOW) based on existing personal records and partial engineering comments. This reliance on incomplete data over a physical survey raises significant concerns regarding the technical competence and adequacy of the scoping process.
         </p>
         <p className="mb-4">
-          They also ignore Admiral telling them to cover the cost of our surveyor to do the job properly. We appear to be dealing with a cold and unseemly blend of bureaucracy, malice, incompetence and greed.
+          Furthermore, the adjuster appeared to overlook direct instructions from Admiral to cover the costs of a proper independent survey. At this stage, the claim was characterized by a combination of procedural delays, administrative inertia, and a failure to adhere to both policy terms and professional oversight.
         </p>
         <p>
-          Now six months after the treefall, with the dangerous wreck still falling to pieces in my garden, I decide to write a letter to the CEO.
+          Six months after the initial incident, with the structure remaining in a hazardous state and no clear remediation plan, I formally escalated the matter to Admiral’s CEO. This escalation was a direct response to the foreseeable harm caused by these ongoing delays and the lack of transparent communication.
         </p>
       </>
     ),
