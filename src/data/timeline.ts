@@ -79,7 +79,7 @@ export const defaultTimelineEvents: TimelineEvent[] = [
     title: '1st Formal Complaint to Admiral',
     description: 'Three months after treefall. Cite lack of communication, delays, and no structural engineer sent.',
     category: 'complaint',
-    fullDetails: 'Having received no response to my request whatsover from Davies, and almost three months after the treefall, I file my first formal complaint with Admiral. It covers: (1) Lack of communication inc. the ongoing failure to respond to emails and written questions. (2) Delays to the claim caused by slow-walking the appointment of surveyors. (3) Safety assessment failure: calling to their attention the fact that no structural engineer has been sent to assess the property\'s safety despite the catastrophic nature of the tree fall.',
+    fullDetails: 'Having received no response to my request whatsoever from Davies, and almost three months after the treefall, I file my first formal complaint with Admiral. It covers: (1) Lack of communication inc. the ongoing failure to respond to emails and written questions. (2) Delays to the claim caused by slow-walking the appointment of surveyors. (3) Safety assessment failure: calling to their attention the fact that no structural engineer has been sent to assess the property\'s safety despite the catastrophic nature of the tree fall.',
     isKey: true,
   },
   {
@@ -147,7 +147,7 @@ export const defaultTimelineEvents: TimelineEvent[] = [
     title: 'Email to Davies',
     description: 'Press for answers on declining independent surveyor. Agree to restricted terms to get claim moving.',
     category: 'correspondence',
-    fullDetails: 'We continue to press for answers as to why and on whose authority Admiral is declining the full use of the independent surveyor. We note our frustration that these questions remain unanswered despite months of asking. Now deep into a four-month+ delay, however, we eventually agree these restricted terms just to get the claim moving. This "concession" is not a free choice; it is due to administrative attrition.',
+    fullDetails: 'We continue to press for answers as to why and on whose authority Admiral is declining the full use of the independent surveyor. We note our frustration that these questions remain unanswered despite months of asking. Now deep into a four-month+ delay, however, we eventually agree to these restricted terms just to get the claim moving. This "concession" is not a free choice; it is due to administrative attrition.',
     isKey: false,
   },
   {
@@ -451,7 +451,7 @@ export const defaultTimelineEvents: TimelineEvent[] = [
     title: 'Direct Rebuttal to Head of Operations',
     description: 'Cite Page 9 Policy Guide "Harm Exception" and Estoppel. The Head of Operations himself agreed disposal was "no problem" in July.',
     category: 'correspondence',
-    fullDetails: 'I send a direct rebuttal to the Head of Operations, citing Page 9 of the Policy Guide (the "Harm Exception") which overrides retention rules if an item "could cause harm". I also cite Estoppel, noting that during the July 31, 2025 site visit, the Head of Operations himself agrees that disposing of damaged items after 8 months of inaction is "no problem".',
+    fullDetails: 'I send a direct rebuttal to the Head of Operations, citing Page 9 of the Policy Guide (the "Harm Exception") which overrides retention rules if an item "could cause harm". I also cite Estoppel, noting that during the July 31, 2025 site visit, the Head of Operations himself agreed that disposing of damaged items after 8 months of inaction is "no problem".',
     isKey: false,
   },
   {

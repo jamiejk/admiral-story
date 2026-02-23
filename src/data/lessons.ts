@@ -24,7 +24,7 @@ export const defaultLessons: Lesson[] = [
   {
     id: 3,
     title: 'Complaints Are Important... But Not For The Reason You Think',
-    description: 'The only way Admiral will only put something in writing is as part of a formal complaint response. You will *not* get them to respond to you in writing any other way.',
+    description: 'The only way Admiral will put something in writing is as part of a formal complaint response. You will *not* get them to respond to you in writing any other way.',
     priority: 'high',
   },
   {
@@ -54,7 +54,7 @@ export const defaultLessons: Lesson[] = [
   {
     id: 8,
     title: 'Buck-passing and Blame-shifting',
-    description: 'Beware that Admiral\'s use of third party agents (like Davies Group as Loss Adjuster in my case) creates a cunning administrative opportunity which they will both absolutely make use of. Either one can blame a delay on the other; either one can point to an unfair decision and say it was the other\'s; and in general, any form of incompetence or malfeasance is easily blamed on the other party. There is not much you can do about this, but forewarned is forearmed. My strong suspicion is that it is completely non-coincidental that Admiral has a evolved a system of pushing critical decision making off to third parties that they deliberately keep on a long leash.',
+    description: 'Beware that Admiral\'s use of third party agents (like Davies Group as Loss Adjuster in my case) creates a cunning administrative opportunity which they will both absolutely make use of. Either one can blame a delay on the other; either one can point to an unfair decision and say it was the other\'s; and in general, any form of incompetence or malfeasance is easily blamed on the other party. There is not much you can do about this, but forewarned is forearmed. My strong suspicion is that it is completely non-coincidental that Admiral has evolved a system of pushing critical decision making off to third parties that they deliberately keep on a long leash.',
     priority: 'high',
   },
 ];
