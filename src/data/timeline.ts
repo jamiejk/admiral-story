@@ -278,7 +278,7 @@ export const defaultTimelineEvents: TimelineEvent[] = [
     title: 'Email to Admiral',
     description: 'Desktop SOW ignores foundation examination needs. Warns outbuilding remains "dangerous structure" 7 months post-peril.',
     category: 'correspondence',
-    fullDetails: 'Reviewing the "desktop" SOW provided with the payment, we confirm it ignores critical need to examine the foundations identified during the April 17th site visit. We spend over a month chasing Admiral for a response to this, warn Admiral that -- given there is no reasonable budget in the scope for clearance -- the outbuilding remains a "dangerous structure" seven months after the initial peril, posing a risk to both my family and my neighbors.',
+    fullDetails: 'Following the receipt of the "desktop" Scope of Works (SOW), I formally notified Admiral of a critical technical failure in their assessment: the document entirely ignored the need to examine the foundations, a requirement clearly identified during the physical site visit on April 17th. Due to the lack of adequate funding for remediation, the outbuilding remained a "dangerous structure" seven months after the initial peril. I explicitly flagged that this delay posed a direct physical risk to my family and neighbors, representing a failure to act on a known hazard.',
     isKey: false,
   },
   {
