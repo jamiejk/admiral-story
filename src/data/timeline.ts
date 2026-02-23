@@ -225,7 +225,7 @@ export const defaultTimelineEvents: TimelineEvent[] = [
     title: 'Retaliatory Allegation',
     description: 'Davies alleges studio is "commercial workshop" - which would invalidate entire claim. Stalls for weeks.',
     category: 'complaint',
-    fullDetails: 'Davies Group retaliates to my attempt to reach out to the CEO by alleging the studio is a "commercial workshop," effectively stalling the claim for weeks. If true, this would invalidate the entire claim. It is at this point that I realise none of these people are on my side and that I am in fact in an adversarial relationship with them. I am still trying to find out who initiated this allegation, and on what basis, to this day.',
+    fullDetails: 'Following my outreach to the CEO regarding ongoing delays, Davies Group introduced an allegation that the studio was a "commercial workshop." If accurate, this characterization could have invalidated the entire claim.\n\nThe Outcome: This allegation effectively stalled the claim for weeks. Admiral later upheld a formal complaint regarding this matter, acknowledging that the "commercial workshop" claim was unsubstantiated. Despite this admission, the specific origin and evidentiary basis for this allegation remain undisclosed to this day.\n\nThis incident marked a clear shift in the handling of the claim, moving from a standard service interaction to what appeared to be an adversarial process',
     isKey: true,
   },
   {
