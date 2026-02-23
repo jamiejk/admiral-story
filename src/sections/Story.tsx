@@ -195,16 +195,13 @@ const chapters: Chapter[] = [
     content: (
       <>
         <p className="mb-4">
-          After writing AGAIN to the CEO, Admiral finally seem inclined to make some changes. The Head of Operations is assigned to take over my claim, and—after a brief, unpleasant detour into investigating whether I actually own the property or not!—a visit to my house is organized.
+          Following a second escalation to the CEO, Admiral’s Head of Operations was assigned to oversee the claim. Before a site visit could be organized, the company elected to conduct an enquiry into my ownership of the property. Once this was resolved, a formal meeting was held at my home.
         </p>
         <p className="mb-4">
-          At the meeting, the Head of Ops and the Head of Complaints settle down with coffee (made by moi) and cookies (made by my wife) to absorb flack from me for about three hours. They promise that from here on out, things will be different! They seem to finally comprehend, while touring the scene of the disaster (the first Admiral employees to do so for eight months!) the scale of what has happened to me.
-        </p>
-        <p className="mb-4">
-          The message of this visit is conciliatory and restorative: things will now go smoothly and I will see Admiral operating in its true form.
+          During this three-hour meeting, the Head of Operations and the Head of Complaints personally toured the scene of the disaster. This marked the first time in eight months that any direct Admiral employees had physically inspected the property to assess the scale of the damage.
         </p>
         <p>
-          Dear reader, I wish I could tell you that I don't fall for it.
+          The meeting concluded with formal assurances that the handling of the claim would change and that the process would now move forward toward a restorative resolution. While the tone of the visit was conciliatory, it established a high expectation for a shift in Admiral’s operational performance—promises that would be measured against their subsequent actions.
         </p>
       </>
     ),
