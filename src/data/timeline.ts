@@ -111,7 +111,7 @@ export const defaultTimelineEvents: TimelineEvent[] = [
     id: 12,
     date: '02/04/2025',
     title: 'Email to Davies',
-    description: 'Demand joint Scope of Works visit be scheduled. Property in destruction for four months.',
+    description: 'Demand joint Scope of Works visit be scheduled. My property has now lain in a state of abject destitution for four months.',
     category: 'correspondence',
     isKey: false,
   },
