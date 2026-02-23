@@ -21,7 +21,7 @@ const priorityIcons = {
 
 const COMPLAINTS = [
   "IGNORED for 8 months with a dangerous wreckage in my garden",
-  "BULLIED by agents trying to minimise my claim",
+  "Subjected to allegations of 'commercial use'",
   "PUT AT RISK by an incompetent, dangerous assessment",
   "Policy Booklet Provisions Misrepresented",
   "STONEWALLED by senior staff invalidating my contents claim."
