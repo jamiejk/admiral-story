@@ -69,13 +69,13 @@ const chapters: Chapter[] = [
     content: (
       <>
         <p className="mb-4">
-          Just over a month later, my first formal complaint is upheld in full. Admiral admits that they are, in fact, liable for the third party surveyors' fees I have requested. You might think this will spur their agent, Davies Group into action—but you would think wrong.
+          Just over a month later, Admiral upheld my first formal complaint in full. The company admitted they were liable for the third-party surveyor’s fees as per my policy terms—an entitlement Davies had previously denied. However, this admission did not result in immediate technical progress.
         </p>
         <p className="mb-4">
-          In fact, for nearly another month, Davies struggles to limit the involvement of this professional to one visit—wholly inadequate (as they well know) to providing meaningful input on plans to reinstate the property.
+          Instead, Davies Group spent nearly another month attempting to limit the independent surveyor's involvement to a single visit. For a claim of this complexity, a single inspection is technically inadequate to provide meaningful input on long-term reinstatement plans.
         </p>
         <p>
-          We finally agree, out of pure desperation to get things moving, to a single visit and limiting the role of the third party surveyor to reviewing the plans Davies will create.
+          Out of a necessity to advance the claim, we eventually agreed to a compromised scope: a single visit where the independent surveyor’s role would be limited to reviewing the plans drafted by Davies.
         </p>
       </>
     ),
