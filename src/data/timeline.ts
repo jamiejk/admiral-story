@@ -138,7 +138,7 @@ export const defaultTimelineEvents: TimelineEvent[] = [
     title: 'Email from Davies',
     description: 'Davies states Admiral not responsible for future surveyor fees after initial visit.',
     category: 'correspondence',
-    fullDetails: 'Davies Group state again that Admiral would not be responsible for future surveyor fees after the initial visit, arguing that a single visit should be sufficient to produce an entire scope of works. They attempt to treat a catastrophic structural claim like a minor repair, because it would limit the independent surveyor\'s ability to check their power.',
+    fullDetails: 'Davies Group stated that Admiral would not be responsible for surveyor fees beyond an initial visit, asserting that a single visit should suffice to produce a comprehensive Scope of Works.\n\nFor a claim involving significant structural damage, a single visit (with no follow-up work budgeted) is completely insufficient to properly assess reinstatement. Restricting independent professional oversight in this manner would create a "technical deficit" in the scoping process, potentially resulting in a settlement that does not reflect the full extent of the required repairs.',
     isKey: false,
   },
   {
