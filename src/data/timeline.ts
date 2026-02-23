@@ -37,7 +37,7 @@ export const defaultTimelineEvents: TimelineEvent[] = [
     title: 'Site Meeting',
     description: 'Davies Loss Adjuster visits, advises against retaining loss assessor, names a settlement figure.',
     category: 'visit',
-    fullDetails: 'A representative from Admiral\'s (Davies Group, the Loss Adjuster) visits my property along with representative from my loss assessor. At this meeting, the Davies employee takes me aside to inform me that it is not in my interest to retain a loss assessor. He advises that we can settle the claim between us, and names a figure he thinks will cover the damage. He also tells me the claim is clear cut and that he doesn\'t anticipate any issues. I wonder how any of this can be ethical, or even legal.',
+    fullDetails: 'During the site visit on, a representative from Davies Group (acting on behalf of Admiral) requested a private conversation without my Loss Assessor present. During this exchange, the Davies representative advised me that retaining independent representation was not in my interest and suggested the claim could be settled directly for a specific sum. The representative further stated the claim was \'clear cut\' and that he \'did not anticipate any issues.',
     isKey: true,
   },
   {
