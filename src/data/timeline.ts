@@ -304,7 +304,7 @@ export const defaultTimelineEvents: TimelineEvent[] = [
     title: '2nd CEO Escalation',
     description: 'Write to CEO again warning workshop allegation is retaliatory. Property remains "dangerous structure" 7 months post-peril.',
     category: 'ceo',
-    fullDetails: 'Having reached a total impasse with the internal claims team, I write again to Admiral\'s CEO (and the head of household claims). I warn him that the "workshop" allegation is retaliatory and that the property remains a "dangerous structure" seven months post-peril. No reply this time.',
+    fullDetails: 'Following a total impasse with the internal claims team, I formally escalated the matter a second time to Admiral’s CEO and the Head of Household Claims.\n\nThe Warnings Issued:\n\nProcedural Conduct: I flagged that the "workshop" allegation appeared immediately after my initial escalation and lacked an evidentiary basis.\n\nPublic Safety: I documented that the outbuilding remained a "dangerous structure" seven months after the initial incident.\n\nDuty of Care: I warned that the continued lack of remediation posed an ongoing risk to my family and neighbors.\n\nThe Outcome:\nThis second executive escalation received no formal reply, leaving the property in a hazardous state and the claim in a state of administrative inertia.',
     isKey: false,
   },
   {
