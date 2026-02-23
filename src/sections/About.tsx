@@ -43,16 +43,16 @@ export default function About() {
 
                             <h3 className="text-xl font-bold text-admiral-navy mb-4">The Objective</h3>
                             <p className="text-admiral-gray leading-relaxed mb-8">
-                                Our mission is to provide transparency for policyholders regarding Admiral's "cash settlement" route. Specifically, we highlight the practice of unilateral cash settlements where the policyholder is not presented with a choice of repair or replacement, despite what a reasonable consumer might expect from their policy terms.
+                                My mission is to provide transparency for policyholders and potential customers regarding Admiral's business practices. I highlight issues like unilateral cash settlements -- where the policyholder is not presented with a choice of repair or replacement, despite what a reasonable consumer might expect from their policy terms -- extensive delays, failures in communication and overbearing bureaucracy.
                             </p>
 
                             <h3 className="text-xl font-bold text-admiral-navy mb-4">The Public Interest</h3>
                             <p className="text-admiral-gray leading-relaxed mb-8">
-                                We believe that the handling of insurance claims is a matter of significant public concern. Every year, millions of UK residents trust insurers to restore their lives after an accident. By sharing documented experiences and outlining the specific timelines and correspondence of our own case, we aim to educate other consumers on their rights under the Financial Ombudsman Service (FOS) guidelines and the Consumer Rights Act.
+                                I believe that the handling of insurance claims is a matter of significant public concern. Every year, millions of UK residents trust insurers to restore their lives after an accident. By sharing documented experiences and outlining the specific timelines and correspondence of my own case, I aim to educate other consumers on their rights under the Financial Ombudsman Service (FOS) guidelines and the Consumer Rights Act.
                             </p>
 
                             <div className="bg-admiral-light/50 p-6 rounded-xl border border-admiral-light text-admiral-dark text-sm sm:text-base italic text-center">
-                                This site is a non-commercial, consumer-led initiative. We do not accept advertising, and we do not represent any competitor of Admiral Insurance.
+                                This site is a non-commercial, consumer-led initiative. I do not accept advertising, and I do not represent any competitor of Admiral Insurance.
                             </div>
                         </div>
                     </div>
