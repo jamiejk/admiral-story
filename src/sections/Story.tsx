@@ -148,16 +148,16 @@ const chapters: Chapter[] = [
     content: (
       <>
         <p className="mb-4">
-          By mid-June, now almost eight months after the treefall, my complaint dealing with Davies' incompetence and retaliatory bullying is upheld in full. But inexplicably, Admiral elects to pay a "settlement" figure into my bank account without warning or discussion. The amount is less than the original build cost in 2018*, is based on an inadequate scope of works conjured out of thin air by an underqualified member of Admiral's in-house team, and includes almost nothing for clearing the site and the wreckage.
+          By mid-June, eight months after the initial incident, Admiral upheld my formal complaint regarding the handling of the claim by Davies Group. However, following this admission, Admiral proceeded to issue a settlement payment directly into my bank account without prior notification or discussion.
         </p>
         <p className="mb-4">
-          I realise that this is also a tactic. Very few people in today's UK can afford to refuse such a substantial sum of money—just a squeak higher than the median salary before tax—even if it is inadequate to the purpose. But even with the risk of never getting another penny out of Admiral, I find myself deeply reluctant, after all these months of struggle, to accept an amount that is less than what I need to re-instate my studio and restore the garden. And my Spidey sense says that accepting it is sure to prejudice my claim to further funds. So I steel myself, and demand to send the money back.
+          The amount issued is less than the original construction cost of the studio in 2018, failing to account for significant inflation or current market rates for reinstatement.
         </p>
         <p className="mb-4">
-          But Admiral (by way of ignoring me completely) declines to let me pay it back. Administrative inertia being wielded as a weapon once again.
+          The settlement was based on a Scope of Works (SOW) produced internally by Admiral that omitted essential costs, including the clearance of the site and the existing wreckage. I formally advised Admiral of my reluctance to accept these funds, as the amount was insufficient to restore the property to its pre-loss condition and accepting it could prejudice future claims for necessary additional funding.
         </p>
-        <p className="text-sm text-admiral-gray italic">
-          *We have, at minimum, 38% inflation since 2018.
+        <p>
+          Following the unsolicited payment, I requested the bank details required to return the funds immediately. Admiral declined to facilitate this return by leaving my requests unanswered. This administrative silence effectively enforced a cash settlement route against my express wishes and without a mutually agreed-upon scope.
         </p>
       </>
     ),
@@ -170,13 +170,19 @@ const chapters: Chapter[] = [
     content: (
       <>
         <p className="mb-4">
-          The next two months find me mired in the attempt to get Admiral to admit that the payment they have made is completely inadequate to re-instating my garage/studio, based as it is on a Scope of Works they have produced without ever having sent a Surveyor to the property. In my favour is the fact that I repeatedly ask them how they expect to create a reasonable, comprehensive plan given the lack of raw data they have—and they repeatedly assure me that they have "professionals" who can do it.
+          Between June and July 2025, I formally challenged Admiral regarding the technical basis of their settlement offer. Despite Admiral’s repeated assurances that their internal teams were capable of producing a comprehensive reinstatement plan without a physical site visit by an Admiral surveyor, the resulting Scope of Works (SOW) was substandard. Several critical components of the original structure were entirely absent from the SOW.
         </p>
+        <p className="font-bold text-admiral-navy mb-2">Inadequate Remediation Funds:</p>
         <p className="mb-4">
-          This is, in fact, completely untrue. Their Scope of Works is inaccurate, incomplete and inadequate—not subtly inadequate, but deeply, bizarrely inadequate: it provides barely any funds to clear the wreckage, and no funds at all to clear and level the garden; several elements of the structure are entirely missing; and there appear to be no professional fees whatsoever provided for building contractors (!).
+          The plan provided minimal funding for site clearance and zero provision for clearing and leveling the garden—essential steps for any safe reinstatement.
         </p>
+        <p className="font-bold text-admiral-navy mb-2">Omission of Professional Fees:</p>
+        <p className="mb-4">
+          The document appeared to omit necessary professional fees for building contractors, making the plan functionally impossible to execute at the proposed budget.
+        </p>
+        <p className="font-bold text-admiral-navy mt-6 mb-2">The Fourth Formal Complaint</p>
         <p>
-          I get nowhere, and am forced to submit my fourth formal complaint, flagging that Admiral—over 6 months into the claim—is still relying on the same scope they agreed was inadequate months ago.
+          With the claim now exceeding six months, I was forced to submit a fourth formal complaint. I flagged that Admiral was still relying on the same technical scope that they had previously acknowledged was inadequate months earlier. This continued reliance on a flawed document represents a significant failure to provide a "fair and reasonable" settlement as required under FCA and Financial Ombudsman Service (FOS) guidelines.
         </p>
       </>
     ),
