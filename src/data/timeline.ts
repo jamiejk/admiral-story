@@ -104,7 +104,7 @@ export const defaultTimelineEvents: TimelineEvent[] = [
     title: '1st Formal Complaint Upheld',
     description: 'Admiral admits service failure, acknowledges liability for surveyor fees. £300 compensation issued.',
     category: 'milestone',
-    fullDetails: 'Admiral upholds my first complaint in full, calling the lack of communication (especially from Davies) and the delays to the claim a \'service failure\'. They acknowledge they are in fact liable for surveyors\' fees under my policy, while making the dubious assertion that their previous stance is an error created by a misreading of their own policy document. Admiral requests that I submit fees for an independent surveyor so that a "Scope of Works" visit can finally be arranged. An amount of £300 is also issued in compensation -- this equates to far less than minimum wage for the hours I put into chasing and fighting them.',
+    fullDetails: 'Admiral upholds my initial complaint in full, formally categorizing the lack of communication and subsequent delays as a \'service failure.\' They acknowledge that the company is liable for surveyor fees under the terms of my policy. Admiral attribute their previous refusal to provide these fees to an error created by a misstatement of their own policy documentation.\n\nFollowing this acknowledgment, Admiral request that I submit fees for an independent surveyor to facilitate a \'Scope of Works\' visit. They issue a compensation payment of £300; for context, this amount does not reflect the significant administrative burden or the extensive hours required to secure their compliance with the policy terms.',
     isKey: true,
   },
   {
