@@ -108,6 +108,18 @@ export default function Footer() {
               >
                 Status
               </a>
+              <a
+                href="/#about"
+                onClick={(e) => {
+                  if (location.pathname === '/') {
+                    e.preventDefault();
+                    document.querySelector('#about')?.scrollIntoView({ behavior: 'smooth' });
+                  }
+                }}
+                className="text-xs text-white/40 hover:text-white transition-colors"
+              >
+                About
+              </a>
             </div>
           </div>
 

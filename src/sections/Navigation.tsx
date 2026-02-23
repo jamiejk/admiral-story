@@ -12,6 +12,7 @@ const navLinks = [
   { label: 'The Story', href: '/#story', type: 'hash' },
   { label: 'Lessons', href: '/lessons', type: 'route' },
   { label: 'Status', href: '/#status', type: 'hash' },
+  { label: 'About', href: '/#about', type: 'hash' },
 ];
 
 export default function Navigation({ visible }: NavigationProps) {

@@ -8,6 +8,7 @@ import Gallery from './sections/Gallery';
 import Story from './sections/Story';
 import AdmiralQuotes from './sections/AdmiralQuotes';
 import CurrentStatus from './sections/CurrentStatus';
+import About from './sections/About';
 import Footer from './sections/Footer';
 import Navigation from './sections/Navigation';
 import EditPage from './pages/EditPage';
@@ -38,6 +39,7 @@ function MainPage() {
         <Story />
         <AdmiralQuotes />
         <CurrentStatus />
+        <About />
       </main>
       <Footer />
     </div>
