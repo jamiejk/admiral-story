@@ -254,23 +254,20 @@ const chapters: Chapter[] = [
   },
   {
     id: 'dodgy_salesman',
-    title: 'Dodgy Salesman Tactics',
+    title: 'Pressure Tactics & Second Unilateral Payment',
     subtitle: 'December 2025 - January 2026',
     icon: <AlertTriangle className="w-6 h-6" />,
     content: (
       <>
         <p className="mb-4">
-          During the exhausting negotiations that follow, the Head of Operations starts to act more like a shady used-car salesman than a veteran insurance professional. For example, trying to get me to accept lowball offers by "throwing in" contingency and provisional sums whilst threatening that they might no longer be offered if I decline the offer. (I have literally seen the same tactic used in a California car dealership, which was one of the worst experiences I have ever had in my life.)
+          During subsequent negotiations, Admiral’s Head of Operations presented settlement offers that included "provisional sums" and "contingencies". These offers were presented alongside verbal indications that such additional sums might be withdrawn if the offer was not accepted immediately. Using the potential withdrawal of funds as leverage to secure an agreement on an inadequate settlement represents a documented departure from the FCA’s Principle of Treating Customers Fairly.
         </p>
-        <p className="mb-4">
-          Obviously I point out this underhanded behaviour and continue to argue for exactly what I am due—the lowest tender received to reinstate the property.
-        </p>
-        <p className="mb-4">
-          After almost three months of this nonsense, Admiral simply stop communicating and elect once again to simply pay money into my bank account. Minus the contingency and provisional amounts.
-        </p>
-        <p>
-          Again I refuse it and ask to send it back. Again they completely ignore me. In fact, they are now ignoring me rather a lot. I start to realise that I am also annoying myself at this point. Who am I? Is this what I do now? Perhaps I am actually working FOR Admiral without even realising it?
-        </p>
+        <p className="font-bold text-admiral-navy mb-2">The Forced Settlement Recurrence:</p>
+        <ul className="list-disc pl-5 mb-4 space-y-2 text-admiral-gray">
+          <li><strong>Second Unilateral Payment:</strong> After three months of negotiation without a mutually agreed-upon figure, Admiral ceased communication and once again issued a payment directly into my bank account.</li>
+          <li><strong>Reduction of Offer:</strong> Notably, this second payment excluded the contingency and provisional amounts previously discussed as necessary for the project.</li>
+          <li><strong>Administrative Inertia:</strong> For a second time, I formally refused the settlement and requested the necessary bank details to return the unsolicited funds. Admiral has continued to ignore these requests, effectively enforcing their chosen settlement route through administrative silence.</li>
+        </ul>
       </>
     ),
   },
