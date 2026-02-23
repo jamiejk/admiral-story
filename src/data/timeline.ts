@@ -269,7 +269,7 @@ export const defaultTimelineEvents: TimelineEvent[] = [
     title: 'Email to Admiral',
     description: 'Formally notify Admiral I have NOT agreed to cash settlement. Admiral refuses to provide bank details for return.',
     category: 'correspondence',
-    fullDetails: 'I formally notify Admiral that I have NOT agreed to a cash settlement and request details to return the funds. Admiral refuses to provide bank details to allow the return, further forcing the cash route. By refusing to allow the return of the funds, Admiral violates the principle that a cash settlement should be an agreed-upon alternative to reinstatement.',
+    fullDetails: 'Following the unsolicited payment, I formally notified Admiral that I had NOT agreed to a cash settlement and requested the necessary bank details to return the funds immediately.\n\nBy leaving these requests unanswered, Admiral declined to provide a mechanism for the return of the fund. In doing so, Admiral effectively enforced a cash settlement route against my express wishes. This action contradicts the principle that a cash settlement should be a mutually agreed-upon alternative to the reinstatement of the property.',
     isKey: false,
   },
   {
