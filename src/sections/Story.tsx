@@ -296,16 +296,21 @@ const chapters: Chapter[] = [
   },
   {
     id: 'present',
-    title: 'The Present',
+    title: 'Current Status',
     subtitle: 'February 2026',
     icon: <Clock className="w-6 h-6" />,
     content: (
       <>
         <p className="mb-4">
-          And this is where I am today. I send a third letter to the Admiral CEO, telling him that I simply want my property restored to the state it was in before the accident, and that it is not right to punish me for mistakes Admiral has admitted to making. Four formal complaints upheld. Multiple admissions of service failure. A fifth complaint now in progress.
+          As of February 2026, I have issued a third formal letter to Admiral’s CEO, requesting that my property simply be restored to its pre-loss condition—a standard expectation of any comprehensive insurance policy. To date, this case has involved four upheld formal complaints and multiple admissions of "service failure" by Admiral. A fifth formal complaint is currently in progress, and I have now launched this site to bring my case to wider attention.
         </p>
+        <ul className="list-disc pl-5 mb-4 space-y-2 text-admiral-gray">
+          <li><strong>Lack of Executive Engagement:</strong> Following the most recent escalation, communication from both the CEO’s office and the Head of Operations has ceased.</li>
+          <li><strong>Procedural Impasse:</strong> Admiral continues to prioritize an inspection of contents that were disposed of months ago with their apparent verbal consent.</li>
+        </ul>
+        <p className="font-bold text-admiral-navy mt-6 mb-2">Next Steps</p>
         <p>
-          He does not reply. The Head of Operations ignores my emails, and sends a firm to examine my non-existent contents. I launch this website. I will escalate to the Financial Ombudsman. Against the background of some very serious failures of process, I have every confidence the Ombudsman will find in my favour.
+          If we do not resolve this matter in a reasonable way, I will escalate to the Financial Ombudsman Service (FOS). Given the documented record of administrative inertia, technical oversight, and admitted service failures, I am seeking a final resolution that adheres to the FCA's guidelines for fair and reasonable consumer treatment.
         </p>
       </>
     ),
