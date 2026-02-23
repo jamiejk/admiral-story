@@ -273,25 +273,23 @@ const chapters: Chapter[] = [
   },
   {
     id: 'no_good_word',
-    title: 'When Your Word Is No Good',
+    title: 'The Contents Claim Dispute',
     subtitle: 'February 2026',
     icon: <User className="w-6 h-6" />,
     content: (
       <>
         <p className="mb-4">
-          It is now February 2026, more than 14 months after the treefall. I finally submit my contents claim, given no one wants to talk to me about the inadequate reinstatement settlement. I still don't have anywhere to put all my stuff, but might as well file it before they stop talking to me entirely.
+          Fourteen months after the initial incident, I formally submitted my contents claim. In response, Admiral’s Head of Operations alleged a breach of contract, citing the disposal of destroyed items as a violation of policy terms.
         </p>
-        <p className="mb-4">
-          The Head of Operations takes one look at the contents figure and claims I have breached the terms of my contract by disposing of items. He is completely ignoring Admiral's own policy, which states that I should retain items "unless it could cause harm"—it would 100% have caused harm if I had crawled into the debris to try to retrieve rotten, waterlogged items—and his own verbal agreement in July that disposal was "no problem".
-        </p>
-        <p className="mb-4">
-          It's that last part that really gets to me. This guy stood in my decimated yard, pretended to commiserate with me, and told me it was not reasonable for anyone to expect me to keep decaying, dirty contents for over eight months. This guy knew that I had repeatedly asked Admiral to send someone to my house to make the property safe and catalogue the contents -- and that they never came. He told me it was okay to dispose of items. But not in writing.
-        </p>
-        <p className="mb-4">
-          And now he is using that against me.
-        </p>
+        <p className="font-bold text-admiral-navy mb-2">Key Discrepancies:</p>
+        <ul className="list-disc pl-5 mb-4 space-y-2 text-admiral-gray">
+          <li><strong>Safety and Hygiene:</strong> The items in question were rotten, waterlogged, and buried under structural debris. Admiral’s own policy allows for the disposal of items that "could cause harm". Attempting to retrieve and store such decaying contents for over eight months posed a clear health and safety risk.</li>
+          <li><strong>Contradictory Representations:</strong> During the physical site visit in July, the Head of Operations verbally agreed that the disposal of these items was "no problem" given the circumstances.</li>
+          <li><strong>Lack of Oversight:</strong> Despite repeated requests for Admiral to send a representative to catalogue the contents before clearance, no such visit occurred. Admiral ultimately funded the site clearance without making any effort to retain or inspect the items at that time.</li>
+        </ul>
+        <p className="font-bold text-admiral-navy mt-6 mb-2">Current Impasse</p>
         <p>
-          Mind-meltingly, Admiral demand a futile physical inspection of items destroyed months ago—despite they themselves having funded the site clearance and never once making efforts to retain a single item under the debris.
+          Admiral is now demanding a physical inspection of items that were destroyed and disposed of months ago with their apparent verbal consent. This insistence on a "futile inspection" represents another significant procedural delay and appears to conflict with the FCA’s Consumer Duty to provide support that is helpful and avoids causing unnecessary stress to the policyholder.
         </p>
       </>
     ),
